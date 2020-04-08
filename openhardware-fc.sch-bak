@@ -16,12 +16,12 @@ $EndDescr
 $Comp
 L MCU_ST_STM32F4:STM32F405RGTx U1
 U 1 1 5E89E312
-P 9200 3200
-F 0 "U1" H 9200 1311 50  0000 C CNN
-F 1 "STM32F405RGTx" H 9200 1220 50  0000 C CNN
-F 2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" H 8600 1500 50  0001 R CNN
-F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00037051.pdf" H 9200 3200 50  0001 C CNN
-	1    9200 3200
+P 10100 3100
+F 0 "U1" H 10100 1211 50  0000 C CNN
+F 1 "STM32F405RGTx" H 10100 1120 50  0000 C CNN
+F 2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" H 9500 1400 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00037051.pdf" H 10100 3100 50  0001 C CNN
+	1    10100 3100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -394,22 +394,22 @@ Wire Notes Line style solid
 	11450 2000 13850 2000
 Text Notes 11500 2200 0    100  ~ 20
 STM32 Power Filtering
-Text GLabel 9000 1400 1    50   Input ~ 0
+Text GLabel 9900 1300 1    50   Input ~ 0
 STM32_VDD
 Text GLabel 12750 2400 2    50   Input ~ 0
 STM32_VDD
 Wire Wire Line
 	12750 2400 12650 2400
 Connection ~ 12650 2400
-Text GLabel 9100 1400 1    50   Input ~ 0
+Text GLabel 10000 1300 1    50   Input ~ 0
 STM32_VDD
-Text GLabel 9200 1400 1    50   Input ~ 0
+Text GLabel 10100 1300 1    50   Input ~ 0
 STM32_VDD
-Text GLabel 9300 1400 1    50   Input ~ 0
+Text GLabel 10200 1300 1    50   Input ~ 0
 STM32_VDD
-Text GLabel 9400 1400 1    50   Input ~ 0
+Text GLabel 10300 1300 1    50   Input ~ 0
 STM32_VDD
-Text GLabel 9500 1400 1    50   Input ~ 0
+Text GLabel 10400 1300 1    50   Input ~ 0
 STM32_VDD
 Text Notes 11500 2400 0    50   ~ 0
 STM32F405 figure 21.\nfor reference
@@ -654,7 +654,7 @@ Wire Notes Line style solid
 	14400 5500 14400 3050
 Text Notes 14450 3250 0    100  ~ 20
 USB Type-C
-Text GLabel 9900 2700 2    50   Input ~ 0
+Text GLabel 10800 2600 2    50   Input ~ 0
 USB_DN
 NoConn ~ 12400 4300
 Wire Wire Line
@@ -695,7 +695,7 @@ Wire Wire Line
 	11700 4500 12400 4500
 Connection ~ 11700 4500
 Connection ~ 12400 4500
-Text GLabel 9900 2800 2    50   Input ~ 0
+Text GLabel 10800 2700 2    50   Input ~ 0
 USB_DP
 $Comp
 L Device:R R?
@@ -726,12 +726,12 @@ Wire Wire Line
 Wire Wire Line
 	15900 3900 15900 4000
 Connection ~ 15900 4000
-Text GLabel 8500 3900 0    50   Input ~ 0
+Text GLabel 9400 3800 0    50   Input ~ 0
 GYRO_MISO
-Text GLabel 8500 4000 0    50   Input ~ 0
+Text GLabel 9400 3900 0    50   Input ~ 0
 GYRO_MOSI
-Text GLabel 8500 3800 0    50   Input ~ 0
+Text GLabel 9400 3700 0    50   Input ~ 0
 GYRO_SCK
-Text GLabel 8500 3700 0    50   Input ~ 0
+Text GLabel 9400 3600 0    50   Input ~ 0
 GYRO_CS
 $EndSCHEMATC

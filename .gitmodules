@@ -1,0 +1,3 @@
+[submodule "parts"]
+	path = parts
+	url = git@github.com:f0x52/parts.git
